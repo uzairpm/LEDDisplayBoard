@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Board Display</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    <style type="text/css">
+        .displayArea {
+            width: 450px;
+            height: 400px;
+            background-color: #F4F4F4;
+        }
+        .fa-circle {
+            font-size: 1.3em;
+            color: rgba(204, 202, 202, 0.31);
+        }
+        .red {
+            color: rgba(249, 0, 0, 0.72);
+        }
+    </style>
+</head>
+<body>
+	<div class="container displayArea">
+        <div class="row0" style="margin-top:20px;">
+            <span id="r0c0"><i class="fa fa-circle"></i></span>
+            <span id="r0c1"><i class="fa fa-circle "></i></span>
+            <span id="r0c2"><i class="fa fa-circle"></i></span>
+            <span id="r0c3"><i class="fa fa-circle"></i></span>
+            <span id="r0c4"><i class="fa fa-circle"></i></span>
+            <span id="r0c5"><i class="fa fa-circle"></i></span>
+            <span id="r0c6"><i class="fa fa-circle"></i></span>
+            <span id="r0c7"><i class="fa fa-circle"></i></span>
+            <span id="r0c8"><i class="fa fa-circle"></i></span>
+            <span id="r0c9"><i class="fa fa-circle"></i></span>
+            <span id="r0c10"><i class="fa fa-circle"></i></span>
+            <span id="r0c11"><i class="fa fa-circle "></i></span>
+            <span id="r0c12"><i class="fa fa-circle"></i></span>
+            <span id="r0c13"><i class="fa fa-circle"></i></span>
+            <span id="r0c14"><i class="fa fa-circle"></i></span>
+            <span id="r0c15"><i class="fa fa-circle"></i></span>
+            <span id="r0c16"><i class="fa fa-circle"></i></span>
+            <span id="r0c17"><i class="fa fa-circle"></i></span>
+            <span id="r0c18"><i class="fa fa-circle"></i></span>
+            <span id="r0c19"><i class="fa fa-circle"></i></span>
+        </div>
+        <div class="row1">
+            <span id="r1c0"><i class="fa fa-circle"></i></span>
+            <span id="r1c1"><i class="fa fa-circle"></i></span>
+            <span id="r1c2"><i class="fa fa-circle"></i></span>
+            <span id="r1c3"><i class="fa fa-circle"></i></span>
+            <span id="r1c4"><i class="fa fa-circle"></i></span>
+            <span id="r1c5"><i class="fa fa-circle"></i></span>
+            <span id="r1c6"><i class="fa fa-circle "></i></span>
+            <span id="r1c7"><i class="fa fa-circle"></i></span>
+            <span id="r1c8"><i class="fa fa-circle"></i></span>
+            <span id="r1c9"><i class="fa fa-circle"></i></span>
+            <span id="r1c10"><i class="fa fa-circle"></i></span>
+            <span id="r1c11"><i class="fa fa-circle "></i></span>
+            <span id="r1c12"><i class="fa fa-circle"></i></span>
+            <span id="r1c13"><i class="fa fa-circle"></i></span>
+            <span id="r1c14"><i class="fa fa-circle"></i></span>
+            <span id="r1c15"><i class="fa fa-circle"></i></span>
+            <span id="r1c16"><i class="fa fa-circle"></i></span>
+            <span id="r1c17"><i class="fa fa-circle"></i></span>
+            <span id="r1c18"><i class="fa fa-circle"></i></span>
+            <span id="r1c19"><i class="fa fa-circle"></i></span>
+        </div>
+        <div class="row2">
+            <span id="r2c0"><i class="fa fa-circle"></i></span>
+            <span id="r2c1"><i class="fa fa-circle"></i></span>
+            <span id="r2c2"><i class="fa fa-circle"></i></span>
+            <span id="r2c3"><i class="fa fa-circle"></i></span>
+            <span id="r2c4"><i class="fa fa-circle"></i></span>
+            <span id="r2c5"><i class="fa fa-circle"></i></span>
+            <span id="r2c6"><i class="fa fa-circle "></i></span>
+            <span id="r2c7"><i class="fa fa-circle"></i></span>
+            <span id="r2c8"><i class="fa fa-circle"></i></span>
+            <span id="r2c9"><i class="fa fa-circle"></i></span>
+            <span id="r2c10"><i class="fa fa-circle"></i></span>
+            <span id="r2c11"><i class="fa fa-circle "></i></span>
+            <span id="r2c12"><i class="fa fa-circle"></i></span>
+            <span id="r2c13"><i class="fa fa-circle"></i></span>
+            <span id="r2c14"><i class="fa fa-circle"></i></span>
+            <span id="r2c15"><i class="fa fa-circle"></i></span>
+            <span id="r2c16"><i class="fa fa-circle"></i></span>
+            <span id="r2c17"><i class="fa fa-circle"></i></span>
+            <span id="r2c18"><i class="fa fa-circle"></i></span>
+            <span id="r2c19"><i class="fa fa-circle"></i></span>
+        </div>
+        <div class="row3">
+            <span id="r3c0"><i class="fa fa-circle"></i></span>
+            <span id="r3c1"><i class="fa fa-circle"></i></span>
+            <span id="r3c2"><i class="fa fa-circle"></i></span>
+            <span id="r3c3"><i class="fa fa-circle"></i></span>
+            <span id="r3c4"><i class="fa fa-circle"></i></span>
+            <span id="r3c5"><i class="fa fa-circle"></i></span>
+            <span id="r3c6"><i class="fa fa-circle "></i></span>
+            <span id="r3c7"><i class="fa fa-circle"></i></span>
+            <span id="r3c8"><i class="fa fa-circle"></i></span>
+            <span id="r3c9"><i class="fa fa-circle"></i></span>
+            <span id="r3c10"><i class="fa fa-circle"></i></span>
+            <span id="r3c11"><i class="fa fa-circle "></i></span>
+            <span id="r3c12"><i class="fa fa-circle"></i></span>
+            <span id="r3c13"><i class="fa fa-circle"></i></span>
+            <span id="r3c14"><i class="fa fa-circle"></i></span>
+            <span id="r3c15"><i class="fa fa-circle"></i></span>
+            <span id="r3c16"><i class="fa fa-circle"></i></span>
+            <span id="r3c17"><i class="fa fa-circle"></i></span>
+            <span id="r3c18"><i class="fa fa-circle"></i></span>
+            <span id="r3c19"><i class="fa fa-circle"></i></span>
+        </div>
+        <div class="row4">
+            <span id="r4c0"><i class="fa fa-circle"></i></span>
+            <span id="r4c1"><i class="fa fa-circle"></i></span>
+            <span id="r4c2"><i class="fa fa-circle"></i></span>
+            <span id="r4c3"><i class="fa fa-circle"></i></span>
+            <span id="r4c4"><i class="fa fa-circle"></i></span>
+            <span id="r4c5"><i class="fa fa-circle"></i></span>
+            <span id="r4c6"><i class="fa fa-circle "></i></span>
+            <span id="r4c7"><i class="fa fa-circle"></i></span>
+            <span id="r4c8"><i class="fa fa-circle"></i></span>
+            <span id="r4c9"><i class="fa fa-circle"></i></span>
+            <span id="r4c10"><i class="fa fa-circle"></i></span>
+            <span id="r4c11"><i class="fa fa-circle "></i></span>
+            <span id="r4c12"><i class="fa fa-circle"></i></span>
+            <span id="r4c13"><i class="fa fa-circle"></i></span>
+            <span id="r4c14"><i class="fa fa-circle"></i></span>
+            <span id="r4c15"><i class="fa fa-circle"></i></span>
+            <span id="r4c16"><i class="fa fa-circle"></i></span>
+            <span id="r4c17"><i class="fa fa-circle"></i></span>
+            <span id="r4c18"><i class="fa fa-circle"></i></span>
+            <span id="r4c19"><i class="fa fa-circle"></i></span>
+        </div>
+        <div class="row5">
+            <span id="r5c0"><i class="fa fa-circle"></i></span>
+            <span id="r5c1"><i class="fa fa-circle"></i></span>
+            <span id="r5c2"><i class="fa fa-circle"></i></span>
+            <span id="r5c3"><i class="fa fa-circle"></i></span>
+            <span id="r5c4"><i class="fa fa-circle"></i></span>
+            <span id="r5c5"><i class="fa fa-circle"></i></span>
+            <span id="r5c6"><i class="fa fa-circle "></i></span>
+            <span id="r5c7"><i class="fa fa-circle"></i></span>
+            <span id="r5c8"><i class="fa fa-circle"></i></span>
+            <span id="r5c9"><i class="fa fa-circle"></i></span>
+            <span id="r5c10"><i class="fa fa-circle"></i></span>
+            <span id="r5c11"><i class="fa fa-circle "></i></span>
+            <span id="r5c12"><i class="fa fa-circle"></i></span>
+            <span id="r5c13"><i class="fa fa-circle"></i></span>
+            <span id="r5c14"><i class="fa fa-circle"></i></span>
+            <span id="r5c15"><i class="fa fa-circle"></i></span>
+            <span id="r5c16"><i class="fa fa-circle"></i></span>
+            <span id="r5c17"><i class="fa fa-circle"></i></span>
+            <span id="r5c18"><i class="fa fa-circle"></i></span>
+            <span id="r5c19"><i class="fa fa-circle"></i></span>
+        </div>
+        <div class="row6">
+            <span id="r6c0"><i class="fa fa-circle"></i></span>
+            <span id="r6c1"><i class="fa fa-circle"></i></span>
+            <span id="r6c2"><i class="fa fa-circle"></i></span>
+            <span id="r6c3"><i class="fa fa-circle"></i></span>
+            <span id="r6c4"><i class="fa fa-circle"></i></span>
+            <span id="r6c5"><i class="fa fa-circle"></i></span>
+            <span id="r6c6"><i class="fa fa-circle "></i></span>
+            <span id="r6c7"><i class="fa fa-circle"></i></span>
+            <span id="r6c8"><i class="fa fa-circle"></i></span>
+            <span id="r6c9"><i class="fa fa-circle"></i></span>
+            <span id="r6c10"><i class="fa fa-circle"></i></span>
+            <span id="r6c11"><i class="fa fa-circle "></i></span>
+            <span id="r6c12"><i class="fa fa-circle"></i></span>
+            <span id="r6c13"><i class="fa fa-circle"></i></span>
+            <span id="r6c14"><i class="fa fa-circle"></i></span>
+            <span id="r6c15"><i class="fa fa-circle"></i></span>
+            <span id="r6c16"><i class="fa fa-circle"></i></span>
+            <span id="r6c17"><i class="fa fa-circle"></i></span>
+            <span id="r6c18"><i class="fa fa-circle"></i></span>
+            <span id="r6c19"><i class="fa fa-circle"></i></span>
+        </div>
+	</div>
+    <div class="container">
+        <button id="A">A</button>
+        <button id="B">B</button>
+        <button id="C">C</button>
+        <button id="D">D</button>
+        <button id="start">Start</button>
+        <button id="clear">Clear</button>          
+    </div>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>    
+</body>
+</html>
